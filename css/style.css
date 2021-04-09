@@ -4,12 +4,30 @@
     border: 1px solid black;
 }
 
-.debug [class *="col-"] {
-    background-color: hotpink;
-    border: 1px solid black;
-}
 
 [class *="col-"] {
     height: 100%;
     min-height: 100px;
+}
+
+
+@media (min-width: 1200px) {
+    .debug [class *="col-"] {
+        background-color: hotpink;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .debug [class *="col-"] {
+        background-color: orange;
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 991px) {
+    .debug [class *="col-"] {
+        background-color: yellow;
+        border: 1px solid black;
+    }
 }
