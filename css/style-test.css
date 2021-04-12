@@ -1,4 +1,8 @@
-
+/* DEBUG */
+/* .debug .container {
+    background-color: green;
+    border: 1px solid black;
+} */
 /* COMMON */
 [class *="col-"] {
     height: 100%;
@@ -216,7 +220,14 @@ footer h1 {
     background-color: #2C3E50;
 }
 
+@media (min-width: 1200px) {
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* .debug [class *="col-"] {
+        background-color: orange;
+        border: 1px solid black;
+    }   */
 
     .ms_navbar h3 {
         font-size: 20px;
@@ -253,7 +264,12 @@ footer h1 {
     }
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
+    /* .debug [class *="col-"] {
+        background-color: yellow;
+        border: 1px solid black;
+    }   */
+
     .divisore {
         height: 30px;
     }
